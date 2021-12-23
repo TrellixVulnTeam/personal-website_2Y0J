@@ -1,2 +1,2 @@
 # personal-website
-Created using Neumorphism UI by Themesberg.
+Created using HTML, CSS, JS and SCSS.
