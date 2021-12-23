@@ -71,23 +71,15 @@
 <!-- NOTICE: You can use the _analytics.html partial to include production code specific code & trackers -->
 
     <style>
-
-        .table-logo {
-            width: 5rem;
-            height: 5rem;
+        .badge {
+            background-color: #222145;
+            font-weight: 600;
+            color: #e6e7ee;
+            opacity: 0.5;
         }
 
-        .table-logo-row {
-            height: 8rem;
-        }
-
-        .spotify {
-            border-radius: 10px;
-        }
-
-        .text-right {
-            font-size: 13px;
-            opacity: 50%;
+        .badge:hover {
+            opacity: 1;
         }
     </style>
 </head>
@@ -126,79 +118,66 @@
             <div class="container z-2">
                 <div class="row justify-content-center text-left pt-3">
                     <div class="col-lg-8 col-xl-8">
-                        <!-- <img src="../../assets/img/website-picture.png" alt="Website Picture" class="website-picture"> -->
+                        <span class="display-3 mb-3">My Coursework</span><br>
                         <p class="display-5 mb-3">
-                            I’m currently into my second year at King’s College London majoring in
-                            Computer Science with Intelligent Systems. You can find a list of the 
-                            modules I’ve taken so far <span style="color: #3333FF;">here</span>.</p>
-                            <p class="display-5 mb-3">
-                            The methodology I’ve followed in all my projects is inspired 
-                            from Elon Musk’s statement, <i>“Any product that needs a manual to work is broken”</i>. 
-                            My identity in UI/UX is marked by clean and simple designs, fresh components 
-                            and unconventional twists.
+                            This list includes MOOCs and other programs.
                         </p><br>
-                        <span class="display-4 mb-3" style="color: #000; font-weight: 600;">Skills</span>
-                        <p class="display-5 mb-3">
-                            Some of the technologies I've worked with:<br>
-                            <table class="table table-borderless">
-                                <tr class="table-logo-row">
-                                    <td>
-                                        <img class="table-logo" src="../../assets/img/figma-1.svg" alt="Figma">
-                                    </td>
-                                    <td>
-                                        <img class="table-logo" src="../../assets/img/django-2.svg" alt="Django">
-                                    </td>
-                                    <td>
-                                        <img class="table-logo" src="../../assets/img/bootstrap-3.svg" alt="Bootstrap">
-                                    </td>
-                                    <td>
-                                        <img class="table-logo" src="../../assets/img/flutter-4.svg" alt="Flutter" style="height: 4.5rem;">
-                                    </td>
-                                </tr>
-                                <tr class="table-logo-row">
-                                    <td>
-                                        <img class="table-logo" src="../../assets/img/json-5.svg" alt="JSON">
-                                    </td>
-                                    <td>
-                                        <img class="table-logo" src="../../assets/img/mysql-6.svg" alt="MySQL">
-                                    </td>
-                                    <td>
-                                        <img class="table-logo" src="../../assets/img/html-7.svg" alt="HTML">
-                                    </td>
-                                    <td>
-                                        <img class="table-logo" src="../../assets/img/css-8.svg" alt="CSS">
-                                    </td>
-                                </tr>
-                                <tr class="table-logo-row">
-                                    <td>
-                                        <img class="table-logo" src="../../assets/img/scala-9.svg" alt="Scala">
-                                    </td>
-                                    <td>
-                                        <img class="table-logo" src="../../assets/img/java-10.svg" alt="Java">
-                                    </td>
-                                </tr>
-                            </table>
-                        </p><br>
-                        <span class="display-4 mb-3" style="color: #000; font-weight: 600;">Interests</span>
-                        <p class="display-5 mb-3">
-                            Outside of academia, you might find me furiously scrambling my Rubik’s Cube(s), 
-                            googling theories and incidences supporting extraterrestrial life or 
-                            on my way to Lord’s Cricket Ground<br>to train with the rest of my university team.
-                        </p>
-                        <p class="display-5 mb-3">
-                            If I find myself programming into the wee hours of the morning, high-energy music
-                            never fails to lift me up to the zone of productivity. If you operate similarly, here's
-                            a small playlist featuring my favourites:
-                        </p>
-                        <iframe class="spotify"
-                            src="https://open.spotify.com/embed/playlist/1hzscrPVU9ZE6nqvKWso3C?utm_source=generator&theme=0" 
-                            width="100%" 
-                            height="180" 
-                            frameBorder="0" 
-                            allowfullscreen="" 
-                            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture">
-                        </iframe><br>
-                        <div class="text-right">Got any recommendations? Reach out to me!</span>
+                            <p class="display-4 mb-3" style="color: #000; font-weight: 600;">Fall 2021</p>
+                            <ul>
+                                <li>
+                                    5CCS2PEP - Practical Experiences in Programming
+                                    <span class="badge badge-pill">C++</span>
+                                    <span class="badge badge-pill">Scala</span>
+                                </li>
+                                <li>
+                                    5CCS2SEG - Software Engineering Group Project
+                                    <span class="badge badge-pill">Python</span>
+                                </li>
+                                <li>
+                                    5CCS2ITR - Introduction to Robotics
+                                    <span class="badge badge-pill">ROS</span>
+                                </li>
+                                <li>
+                                    5CCS2FC2 - Foundations of Computing 2
+                                </li>
+                            </ul><br>
+                            <p class="display-4 mb-3" style="color: #000; font-weight: 600;">Winter 2021</p>
+                            <ul>
+                                <li>
+                                    4CCS1PPA - Programming Practice and Applications (Part 2)
+                                    <span class="badge badge-pill">Java</span>
+                                </li>
+                                <li>
+                                    4CCS1CM2 - Mathematical Modelling
+                                    <span class="badge badge-pill">MATLAB</span>
+                                    <span class="badge badge-pill">Simulink</span>
+                                </li>
+                                <li>
+                                    4CCS1DST - Data Structures
+                                    <span class="badge badge-pill">Java</span>
+                                </li>
+                                <li>
+                                    4CCS1DBS - Database Systems
+                                    <span class="badge badge-pill">MySQL</span>
+                                </li>
+                            </ul><br>
+                            <p class="display-4 mb-3" style="color: #000; font-weight: 600;">Fall 2020</p>
+                            <ul>
+                                <li>
+                                    4CCS1PPA - Programming Practice and Applications (Part 1)
+                                    <span class="badge badge-pill">Java</span>
+                                </li>
+                                <li>
+                                    4CCS1CM1 - Computational Mathematics for Engineers
+                                    <span class="badge badge-pill">MATLAB</span>
+                                </li>
+                                <li>
+                                    4CCS1CS1 - Computer Systems
+                                </li>
+                                <li>
+                                    4CCS1DBS - Foundations of Computing 1
+                                </li>
+                            </ul>
                     </div>
                 </div>
             </div>

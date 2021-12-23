@@ -1,0 +1,116 @@
+<!--
+
+=========================================================
+* Neumorphism UI - v1.0.0
+=========================================================
+
+* Product Page: https://themesberg.com/product/ui-kits/neumorphism-ui
+* Copyright 2020 Themesberg MIT LICENSE (https://www.themesberg.com/licensing#mit)
+
+* Coded by https://themesberg.com
+
+=========================================================
+
+* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head> 
+    @@include('./_head.html', {
+        "path": "../..",
+        "title": "Vedeesh Bali"
+    })
+    <style>
+        .badge {
+            background-color: #222145;
+            font-weight: 600;
+            color: #e6e7ee;
+            opacity: 0.5;
+        }
+
+        .badge:hover {
+            opacity: 1;
+        }
+    </style>
+</head>
+
+<body>
+    @@include('./_navigation.html', {
+        "path": "../..",
+        "classes": "navbar-light navbar-transparent navbar-theme-primary"
+    })
+    <main>
+        <section class="section section bg-soft pb-5 overflow-hidden z-2">
+            <div class="container z-2">
+                <div class="row justify-content-center text-left pt-3">
+                    <div class="col-lg-8 col-xl-8">
+                        <span class="display-3 mb-3">My Coursework</span><br>
+                        <p class="display-5 mb-3">
+                            This list includes MOOCs and other programs.
+                        </p><br>
+                            <p class="display-4 mb-3" style="color: #000; font-weight: 600;">Fall 2021</p>
+                            <ul>
+                                <li>
+                                    5CCS2PEP - Practical Experiences in Programming
+                                    <span class="badge badge-pill">C++</span>
+                                    <span class="badge badge-pill">Scala</span>
+                                </li>
+                                <li>
+                                    5CCS2SEG - Software Engineering Group Project
+                                    <span class="badge badge-pill">Python</span>
+                                </li>
+                                <li>
+                                    5CCS2ITR - Introduction to Robotics
+                                    <span class="badge badge-pill">ROS</span>
+                                </li>
+                                <li>
+                                    5CCS2FC2 - Foundations of Computing 2
+                                </li>
+                            </ul><br>
+                            <p class="display-4 mb-3" style="color: #000; font-weight: 600;">Winter 2021</p>
+                            <ul>
+                                <li>
+                                    4CCS1PPA - Programming Practice and Applications (Part 2)
+                                    <span class="badge badge-pill">Java</span>
+                                </li>
+                                <li>
+                                    4CCS1CM2 - Mathematical Modelling
+                                    <span class="badge badge-pill">MATLAB</span>
+                                    <span class="badge badge-pill">Simulink</span>
+                                </li>
+                                <li>
+                                    4CCS1DST - Data Structures
+                                    <span class="badge badge-pill">Java</span>
+                                </li>
+                                <li>
+                                    4CCS1DBS - Database Systems
+                                    <span class="badge badge-pill">MySQL</span>
+                                </li>
+                            </ul><br>
+                            <p class="display-4 mb-3" style="color: #000; font-weight: 600;">Fall 2020</p>
+                            <ul>
+                                <li>
+                                    4CCS1PPA - Programming Practice and Applications (Part 1)
+                                    <span class="badge badge-pill">Java</span>
+                                </li>
+                                <li>
+                                    4CCS1CM1 - Computational Mathematics for Engineers
+                                    <span class="badge badge-pill">MATLAB</span>
+                                </li>
+                                <li>
+                                    4CCS1CS1 - Computer Systems
+                                </li>
+                                <li>
+                                    4CCS1DBS - Foundations of Computing 1
+                                </li>
+                            </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
