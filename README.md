@@ -1,2 +1,5 @@
 # personal-website
-Created using HTML, CSS, JS and SCSS.
+To run on your local server, use the command:
+```
+$ gulp
+```
